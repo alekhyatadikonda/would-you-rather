@@ -1,0 +1,276 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background: #f0f8ff;
+}
+
+a {
+    color: #252525;
+    text-decoration: none;
+}
+
+.login-box {
+    display: flex;
+    flex-flow: row wrap;
+    margin: 30px auto;
+    padding: 10px;
+    width: 100%;
+    max-width: 250px;
+    text-align: center;
+    border: 1px solid #dad7d7;
+    border-radius: 5px;
+}
+
+.login-box span, .user-select {
+    flex: 1 90%;
+}
+
+.user-select select {
+    margin: 20px auto;
+    height: 30px;
+    width: 100%;
+}
+
+.nav-bar ul {
+    margin: 0;
+    position: relative;
+    display: flex;
+}
+
+.nav-bar{
+    background: #149c82;
+}
+
+.nav-bar li {
+    line-height: 50px;
+    text-align: center;
+    height: 50px;
+    width: 120px;
+}
+
+.nav-bar li:first-child {
+    padding-left: 0;
+    width: 200px;
+}
+
+.nav-bar li:last-child {
+    margin-left: auto;
+    width: 300px;
+}
+
+ul {
+    padding-left: 0;
+    align-items: center;
+}
+
+li {
+    padding: 10px;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.nav-user {
+    display: flex;
+    align-items: center;
+    float: right;
+}
+
+.nav-avatar {
+    margin: 0 5px 0 10px;
+    border-radius: 15px;
+    height: 20px;
+    width: 20px;
+}
+
+
+.user-avatar {
+    margin: 10px;
+    border-radius: 25px;
+    height: 50px;
+    width: 50px;
+}
+
+.stats-user-avatar {
+    margin: 10px;
+    border-radius: 80px;
+    height: 150px;
+    width: 150px;
+}
+
+.question {
+    margin: 30px auto;
+    padding: 10px;
+    display: flex;
+    border: 1px solid #dad7d7;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 700px;
+}
+
+.question-avatar-wrapper{
+    text-align: center;
+}
+
+.question span{
+    margin: 5px;
+    display: block;
+    text-align: center;
+}
+
+.option {
+    margin: 0 5px 0 5px;
+    width: 48%;
+}
+
+.question form {
+    width: 100%;
+    display: flex;
+    flex-flow: wrap;
+}
+
+.question form button {
+    width: 80%;
+}
+
+.option button {
+    min-height: 72px;
+    width: 100%;
+    background: #fff;
+    border: 1px solid #dad7d7;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.option input {
+    min-height: 72px;
+    text-align: center;
+    font-size: 14px;
+    width: 100%;
+    border: 1px solid #dad7d7;
+    border-radius: 5px;
+}
+
+.option .stats {
+    padding: 0;
+    margin: 5px;
+    font-size: 12px;
+}
+
+.option button:hover {
+    background: #cce1f3;
+}
+
+.option button.answered:hover {
+    background: #cce1f3;
+}
+
+.button-group {
+    margin: 0 auto;
+    padding: 10px;
+    display: flex;
+    flex-flow: row wrap;
+    max-width: 720px;
+    width: 100%;
+}
+
+.button-group button {
+    height: 50px;
+    width: 360px;
+    font-size: 10px;
+    text-transform: uppercase;
+    background: #fff;
+    border: 1px solid rgba(0,0,0,.2);
+    cursor: pointer;
+}
+
+.button-group .active {
+    background: #cce1f3;
+}
+
+.button-group submit-button:hover {
+    background: #cce1f3;
+}
+
+.button-group .button-left {
+    border-right: 0;
+    border-radius: 5px 0 0 5px;
+}
+
+.button-group .button-right {
+    border-radius: 0 5px 5px 0;
+}
+
+button.question-option-selected:hover{
+    font-weight: bold;
+    background: #eee;
+}
+
+button.question-option-selected {
+    font-weight: bold;
+    background: #cce1f3;
+}
+
+.submit-button {
+    margin: 10px auto;
+    padding: 10px;
+    position: relative;
+    cursor: pointer;
+    width: 100%;
+    background: #fff;
+    border: 1px solid rgba(0,0,0,.2);
+    border-radius: 3px;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+.submit-button:hover {
+    border-color: rgba(0,0,0,.2);
+}
+
+.submit-button:disabled:hover {
+    border: 1px solid rgba(0,0,0,.2);
+}
+
+.center {
+    text-align: center
+}
+
+.active {
+    font-weight: bold;
+}
+
+.users {
+    margin: 0 auto;
+    width: 50%;
+}
+
+.user {
+    margin: 0 auto;
+    padding: 10px;
+    display: inline-flex;
+    width: 100%;
+    border: 1px solid #dad7d7;
+    border-radius: 5px;
+}
+
+.user img {
+    margin: 0;
+    float: left;
+}
+
+.user span{
+    margin: 10px 20px;
+    font-size: 18px;
+}
+
+.stats p:first-child {
+    margin: 0 0 30px 30px;
+    font-size: 40px;
+}
+
+.stats p {
+    margin: 20px 0 0 30px;
+    font-size: 20px;
+}
